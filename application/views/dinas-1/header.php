@@ -19,7 +19,7 @@
 <div class="header-container header-nav header-nav-center header-nav-bar header-nav-bar-primary">
     <div class="img-fluid" style="display:flex; justify-content: space-between; width: 100%; height: auto;">
         <div style="text-align: left;">
-            <img style="width: 500px;" src="<?php echo base_url(); ?>asset/logo/1.png">
+            <img class="image-logo" style="width: 75%; height: auto;" src="<?php echo base_url(); ?>asset/logo/1.png">
         </div>
         <div style="text-align: right;"> 
 
@@ -41,7 +41,7 @@
         </script>
 
     <!-- Menampilkan Jam (Aktif) -->
-    <div id="clock"></div>
+    <div style="width: 75%; height: auto;" id="clock"></div>
         <script type="text/javascript">
         <!--
         function showTime() {
@@ -104,7 +104,7 @@
 						</li>
 						<li class="hidden-xs hidden-sm" style="float:right;padding:10px 13px;">
 						<form method="POST" action="<?php echo base_url();?>berita/index/">
-                            <div class="input-group" style="position:absolute; width:150px; right:50px;">
+                            <div class="input-group" style="position:absolute; width:150px;">
 							  <input name="kata" type="text" class="form-control" placeholder="Cari...">
 							  <span class="input-group-btn">
 								<button name="cari" class="btn btn-default" type="submit">

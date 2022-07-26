@@ -20,6 +20,7 @@
 			
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 welcome padding-left-none padding-bottom-40 scroll_effect fadeInUp">
 				<h2 class="margin-bottom-25 margin-top-none" style="text-align: center;">BERITA TERBARU</h2>
+				<div class="btmline" style="margin-bottom: 46px;"></div>
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 					<?php
@@ -95,162 +96,181 @@
 		
 		<div class="col-md-6" data-wow-delay=".4s">
 			<h2 class="mb-lg" style="text-align: center;">DASHBOARD</h2>
-			<div class="item active card"><a href="https://ditjenbinaadwil.kemendagri.go.id/download/file/flyerkeu1.pdf" target ="_blank"><img  style="max-height:100%; width:500px;" src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto/asset/foto_banner/flyerkeu.jpg" caption="false" title="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)" alt="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)"/>
+			<div class="btmline" style="margin-bottom: 46px;"></div>
+			<div class="item active"><a href="https://ditjenbinaadwil.kemendagri.go.id/download/file/flyerkeu1.pdf" target ="_blank"><img class="card2" style="width:auto; max-height: 100%; display: flex; justify-content: center;" src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto/asset/foto_banner/flyerkeu.jpg" caption="false" title="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)" alt="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)"/>
 	</div>
 </section>
 
-<section>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
-    	<h2>BERITA<br>KEMENDAGRI</h2>
-      <div id="news-slider" class="owl-carousel .col-sm-1">
-      	
-      	<?php
+
+
+<div class="container">
+  <div class="row align-items-start">
+  	<div class="col-lg-6 col-md-6 col-sm-12">
+<div class="news-slider">
+          <h2 style="text-align: center; font-size: 30px; font-weight: 300;">BERITA <br>KEMENDAGRI</h2>
+          <div class="btmline" style="margin-bottom: 46px;"></div>
+          <div class="owl-carousel owl-carousel1 owl-theme">
+          	<?php
 			 foreach ($berita1->result_array() as $h) {
 			?>
-        <div class="post-slide">
-          <div class="post-img">
-            <img src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto,w=270/<?php echo "asset/foto_berita/" . $h['gambar'] ?>" alt="">
-            <a href="berita/detail/<?php echo $h['judul_seo']; ?>" class="over-layer"><i class="fa fa-link"></i></a>
-          </div>
-          <div class="post-content">
-            <p><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
-          </div>
-        </div>
-        <?php
-			 }
-			?>
-    </div>
-</section>
+               <div>
+                    <div class="card-new text-center">
+                         <div class="card-img-thumb" style="background: url(https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto,w=270/<?php echo "asset/foto_berita/" . $h['gambar'] ?>);
+                         background-size: cover;">                                                       
+                         </div>
+                         <div class="card-body">
+                              <!-- <div class="heading">
+                              </div> -->
+                               <p><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
+                                   <div class="card-footer">
+                                        <span><i class="fa fa-calendar"></i> <?php echo $h['tanggal'] . " " . $h['jam']; ?> </span>
+                                   </div>
+                         </div>
+                         
+                    </div>
 
-<section>
+               </div>
+               <?php
+						 }
+						?>
+               </div>
+           </div>
+           </div>
+<div class="col-lg-6 col-md-6 col-sm-12">
+<div class="news-slider">
+          <h2 style="font-size: 30px; font-weight: 300;">BERITA DITJEN <br>BINA ADWIL</h2>
+          <div class="btmline" style="margin-bottom: 46px;"></div>
+          <div class="owl-carousel owl-carousel1 owl-theme">
+          	<?php
+				 foreach ($berita2->result_array() as $h) {
+				?>
+               <div>
+                    <div class="card-new text-center">
+                         <div class="card-img-thumb" style="background: url(https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto,w=270/<?php echo "asset/foto_berita/" . $h['gambar'] ?>);
+                         background-size: cover;">                                                       
+                         </div>
+                         <div class="card-body">
+                              <!-- <div class="heading">
+                              </div> -->
+                               <p><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
+                                   <div class="card-footer">
+                                        <span><i class="fa fa-calendar"></i> <?php echo $h['tanggal'] . " " . $h['jam']; ?> </span>
+                                   </div>
+                         </div>
+                         
+                    </div>
+
+               </div>
+               <?php
+						 }
+						?>
+               </div>
+</div>
+
+</div>
+</div>
+</div>
+
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
-      <div id="news-slider1" class="owl-carousel .col-sm-1">
-      	<h2 class="mb-lg">BERITA DITJEN BINA ADWIL</h2>
-      	<?php
-			 foreach ($berita2->result_array() as $h) {
-			?>
-        <div class="post-slide">
-          <div class="post-img">
-            <img src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto,w=270/<?php echo "asset/foto_berita/" . $h['gambar'] ?>" alt="">
-            <a href="berita/detail/<?php echo $h['judul_seo']; ?>" class="over-layer"><i class="fa fa-link"></i></a>
-          </div>
-          <div class="post-content">
-            <p><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
-          </div>
-        </div>
-        <?php
-			 }
-			?>
-    </div>
-</section>
+  <div class="row no-gutters">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="jumbotron jumbotron-fluid" style="background: #183464; background-size: cover; height: 500px;">
 
-<section class="section section-no-background m-none">
-	<div class="container">
-		<div class="row">
-			
-			
-		
-		<div class="col-md-4" data-wow-delay=".4s">
-			<h2 class="mb-lg">BERITA <strong>KEMENDAGRI</strong></h2>
-			<?php
-			 foreach ($berita1->result_array() as $h) {
-			?>
-					<div class="recent-posts">
-					<div class="col-md-4">
-					<a href="berita/detail/<?php echo $h['judul_seo']; ?>"><img  style="width:100%; min-height:70px;" src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto,w=270/<?php echo "asset/foto_berita/" . $h['gambar'] ?>" alt="" data-rjs="2"></a>
-					</div>
-					<div class="col-md-8">
-						<article class="post">
-							<div class="post-meta">
-								<span><i class="fa fa-calendar"></i> <?php echo $h['tanggal'] . " " . $h['jam']; ?> </span>
-							</div>
-							<p><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
-						</article>
-					</div>
-					</div>
-			<?php
-			 }
-			?>
-		</div>
-		
-		<div class="col-md-4" data-wow-delay=".4s">
-			<h2 class="mb-lg">BERITA <strong>DITJEN BINA ADWIL</strong></h2>
-			<?php
-			 foreach ($berita2->result_array() as $h) {
-			?>
-					<div class="recent-posts">
-					<div class="col-md-4">
-					<a href="berita/detail/<?php echo $h['judul_seo']; ?>"><img  style="width:100%; min-height:70px;" src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto,w=270/<?php echo "asset/foto_berita/" . $h['gambar'] ?>" alt="" data-rjs="2"></a>
-					</div>
-					<div class="col-md-8">
-						<article class="post">
-							<div class="post-meta">
-								<span><i class="fa fa-calendar"></i> <?php echo $h['tanggal'] . " " . $h['jam']; ?> </span>
-							</div>
-							<p><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
-						</article>
-					</div>
-					</div>
-			<?php
-			 }
-			?>
-		</div>
-		
-		<!--<div class="col-md-4" data-wow-delay=".4s">
-			<h2 class="mb-lg">BERITA <strong>NASIONAL</strong></h2>
-			<?php
-			 foreach ($berita3->result_array() as $h) {
-			?>
-					<div class="recent-posts">
-					<div class="col-md-4">
-					<a href="berita/detail/<?php echo $h['judul_seo']; ?>"><img  style="width:100%; min-height:70px;" src="<?php echo base_url() . "asset/foto_berita/" . $h['gambar'] ?>" alt="" data-rjs="2"></a>
-					</div>
-					<div class="col-md-8">
-						<article class="post">
-							<div class="post-meta">
-								<span><i class="fa fa-calendar"></i> <?php echo $h['tanggal'] . " " . $h['jam']; ?> </span>
-							</div>
-							<p><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
-						</article>
-					</div>
-					</div>
-			<?php
-			 }
-			?>
-		</div>
-		</div>
-	</div>-->
-	<div class="col-md-4" data-wow-delay=".4s">
-			<h2 class="mb-lg">AGENDA <strong>KEGIATAN</strong></h2>
-			<?php
+
+
+  <div class="container text-white">
+
+    <h1 class="display-4" style="font-size: 30px; font-weight: 300;">INFORMASI PUBLIK</h1>
+    <hr class="my-4">
+    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a class="btn btn-warning btn-lg" style="color: #183464;" href="#" role="button">Selengkapnya</a>
+
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.jumbotron -->
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="jumbotron jumbotron-fluid" style="background: url(<?php echo base_url(); ?>asset/img_background/wa1.jpeg); background-size: cover; height: 500px;">
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.jumbotron -->
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="jumbotron jumbotron-fluid" style="background: url(<?php echo base_url(); ?>asset/img_background/wa2.jpeg); background-size: cover; height: 400px;">
+
+  <div class="container text-white" >
+
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.jumbotron -->
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="jumbotron jumbotron-fluid" class="jumbotron jumbotron-fluid" style="background: #ffc107; background-size: cover; height: 400px;">
+      	<div class="container">
+    <h1 class="display-4" style="color: #183464; font-size: 30px; font-weight: 300;">AGENDA KEGIATAN</h1>
+        <hr class="my-4">
+    		<?php
 			 foreach ($agenda->result_array() as $h) {
 			?>
-					<div class="recent-posts">
-						<article class="post">
-							<div class="post-meta">
-								<span><i class="fa fa-calendar"></i> <?php echo $h['tgl_mulai']; ?> </span>
-							</div>
-							<h5><a href="<?php echo base_url() . "agenda/detail/" . $h['tema_seo']; ?>"><?php echo $h['tema']; ?></a></h5>
-						</article>
-					</div>
-			<?php
-			 }
-			?>
-		</div>
-		</div>
-	</div>
-</section>
+			<span><i class="fa fa-calendar"></i> <?php echo $h['tgl_mulai']; ?> </span>
+    <h5><a href="<?php echo base_url() . "agenda/detail/" . $h['tema_seo']; ?>"><?php echo $h['tema']; ?></a></h5>
+
+  <?php
+  	}
+  	?>
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.jumbotron -->
+    </div>
+</div>
+</div>
+
+<h2 style="text-align: center; font-size: 30px; font-weight: 300;">LAYANAN</h2>
+<div class="btmline" style="margin-bottom: 46px;"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="jumbotron jumbotron-fluid" style="background: white; background-size: cover; height: 500px;">
+
+
+
+  <div class="container">
+
+    <img class="img-fluid" src="<?php echo base_url(); ?>asset/logo/13.png" style="height: 100px; width: auto;">
+    <hr class="my-4">
+    <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a class="btn btn-warning btn-lg" href="#" role="button">Selengkapnya</a>
+
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.jumbotron -->
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img class="img-fluid" src="<?php echo base_url(); ?>asset/logo/12.png">
+    </div>
+  </div>
+</div>
+
+
+
 
 <div class="container">
 <div class="row">
 <div class="col-md-12 center">
-<div class="heading heading-border heading-middle-border heading-middle-border-center">
+<!-- <div class="heading heading-border heading-middle-border heading-middle-border-center"> -->
 <h2 class="mb-lg">LAYANAN<strong> TERKAIT</strong></h2>
-</div>
+<div class="btmline" style="margin-bottom: 46px;"></div>
+<!-- </div> -->
 <iframe src="sliderlogo/" width="100%" frameBorder="0"></iframe>
 
 </div>
