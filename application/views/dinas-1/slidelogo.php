@@ -11,7 +11,7 @@
 		$no = 0;
 		foreach ($linkterkait->result_array() as $r){ 
    ?>
-      <div class="slide"><a href="<?php echo $r['url'] ;?>"><img src="<?php echo "https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto/asset/foto_iklantengah/" . $r['gambar'] ?>"></a></div>
+      <div class="slide"><a href="<?php echo $r['url'] ;?>"><img src="<?php echo base_url();?>/asset/foto_iklantengah/<?php echo $r['gambar']?>"></a></div>
       <!--<div class="slide"><a href="<?php echo $r['url'] ;?>"><img src="<?php echo base_url() . "asset/foto_iklantengah/" . $r['gambar'] ?>"></a></div>-->
    <?php
 		}

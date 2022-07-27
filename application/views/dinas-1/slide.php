@@ -39,8 +39,8 @@ Kerjasama Kelompok Kerja/Jawatan Kuasa Kerja Sosio Ekonomi Malaysia-Indonesia (K
 				foreach ($utama1->result_array() as $row)
 					?>
 					<img id="image-banner" src="<?php echo base_url(); ?>/asset/foto_banner/<?php echo $img?>" class="img-responsive" style="object-fit: cover; width: 100%;"/>
-                    <div class="carousel-caption animated fadeInLeft" style="margin: auto; padding-top: 300px;">
-                            <p style="font-size: 30px;" class="slide-text-heading options" data-animation="animated bounceInLeft">
+                    <div id="slide-caption" class="carousel-caption animated fadeInLeft" style="margin: auto; padding-top: 300px;">
+                            <p id="slider1" style="font-size: 16px;" class="slide-text-heading " data-animation="animated bounceInLeft">
                                 <?php print_r($txt)?>
                             </p>
                             <h4 class="slide-text-desc" data-animation="animated bounceInUp">

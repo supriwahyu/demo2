@@ -128,7 +128,7 @@
   border-bottom-color: rgba(255, 255, 255, 0.2);
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  height: 180px;
+  height: auto;
 }
 
 .top-container {
@@ -247,7 +247,7 @@ img {
                height: 6px;
                border-radius: 4px;
                width: 54px;
-               background: #ff5050;
+               background: #143464;
           }
 
           .news-slider .heading{
@@ -383,9 +383,37 @@ img {
 .container .jumbotron, .container-fluid .jumbotron {
     border-radius: 0px;
     margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
 }
 
 .font1 {
     color: white;
     
+}
+
+@media (max-width: 479px) {
+#image-banner {
+  height: 600px;
+}
+
+@media (max-width: 479px) {
+.options {
+  width: 250px;
+}
+
+@media (max-width: 479px) {
+#slide-caption {
+  padding-top: 150px !important;
+}
+
+@media (max-width: 479px) {
+#dashboard {
+  padding-top: 50px !important;
+}
+
+
+.jumbotron {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }

@@ -48,7 +48,7 @@
 						?>
 							<div class="item active"><a href="#" target ="_blank"><img  class="max-height:100%;" src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto,w=458/asset/foto_berita/<?php echo $ban2['gambar']; ?>" alt="<?php echo $ban2['judul'];?>" caption="false"/>
 							
-							<div class="carousel-caption animated fadeInLeft" style="top:73%;width:100%;>
+							<div class="carousel-caption animated fadeInLeft" style="top:73%;width:100%;">
 								<span  data-animation="animated bounceInLeft" style="bottom: 30px; position: fixed; min-width: 350px;left: 20px;">
 									<?php echo "<a style='color:white;' href='" . base_url() . "berita/detail/$ban2[judul_seo]'>" . $ban2['judul'] . "</a>";?>
 								</span>
@@ -95,7 +95,7 @@
 		</div>-->
 		
 		<div class="col-md-6" data-wow-delay=".4s">
-			<h2 class="mb-lg" style="text-align: center;">DASHBOARD</h2>
+			<h2 id="dashboard" class="mb-lg" style="text-align: center;">DASHBOARD</h2>
 			<div class="btmline" style="margin-bottom: 46px;"></div>
 			<div class="item active"><a href="https://ditjenbinaadwil.kemendagri.go.id/download/file/flyerkeu1.pdf" target ="_blank"><img class="card2" style="width:auto; max-height: 100%; display: flex; justify-content: center;" src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto/asset/foto_banner/flyerkeu.jpg" caption="false" title="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)" alt="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)"/>
 	</div>
@@ -171,7 +171,7 @@
 </div>
 </div>
 
-<div class="container-fluid">
+<div style="padding-top:50px;" class="container-fluid">
   <div class="row no-gutters">
     <div class="col-lg-6 col-md-6 col-sm-12">
       <div class="jumbotron jumbotron-fluid" style="background: #183464; background-size: cover; height: 500px;">
@@ -180,10 +180,14 @@
 
   <div class="container text-white">
 
-    <h1 class="display-4" style="font-size: 30px; font-weight: 300;">INFORMASI PUBLIK</h1>
+    <h1 class="display-4" style="font-size: 30px; font-weight: 300; padding-top: 50px;">INFORMASI PUBLIK</h1>
     <hr class="my-4">
     <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.</p>
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident</p>
     <a class="btn btn-warning btn-lg" style="color: #183464;" href="#" role="button">Selengkapnya</a>
 
   </div>
@@ -203,9 +207,7 @@
     <div class="col-lg-6 col-md-6 col-sm-12">
       <div class="jumbotron jumbotron-fluid" style="background: url(<?php echo base_url(); ?>asset/img_background/wa2.jpeg); background-size: cover; height: 400px;">
 
-  <div class="container text-white" >
-
-  </div>
+  
   <!-- /.container -->
 </div>
 <!-- /.jumbotron -->
@@ -213,13 +215,13 @@
     <div class="col-lg-6 col-md-6 col-sm-12">
       <div class="jumbotron jumbotron-fluid" class="jumbotron jumbotron-fluid" style="background: #ffc107; background-size: cover; height: 400px;">
       	<div class="container">
-    <h1 class="display-4" style="color: #183464; font-size: 30px; font-weight: 300;">AGENDA KEGIATAN</h1>
+    <h1 class="display-4" style="color: #183464; font-size: 30px; font-weight: 300; padding-right: 15px; padding-left: 15px;">AGENDA KEGIATAN</h1>
         <hr class="my-4">
     		<?php
 			 foreach ($agenda->result_array() as $h) {
 			?>
-			<span><i class="fa fa-calendar"></i> <?php echo $h['tgl_mulai']; ?> </span>
-    <h5><a href="<?php echo base_url() . "agenda/detail/" . $h['tema_seo']; ?>"><?php echo $h['tema']; ?></a></h5>
+			<span style="padding-right: 15px; padding-left: 15px;"><i class="fa fa-calendar"></i> <?php echo $h['tgl_mulai']; ?> </span>
+    <h5 style="padding-right: 15px; padding-left: 15px;"><a href="<?php echo base_url() . "agenda/detail/" . $h['tema_seo']; ?>"><?php echo $h['tema']; ?></a></h5>
 
   <?php
   	}
@@ -232,7 +234,7 @@
 </div>
 </div>
 
-<h2 style="text-align: center; font-size: 30px; font-weight: 300;">LAYANAN</h2>
+<h2 style="text-align: center; font-size: 30px; font-weight: 300; padding-top: 50px;">LAYANAN</h2>
 <div class="btmline" style="margin-bottom: 46px;"></div>
 
 <div class="container">
@@ -247,7 +249,11 @@
     <img class="img-fluid" src="<?php echo base_url(); ?>asset/logo/13.png" style="height: 100px; width: auto;">
     <hr class="my-4">
     <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.</p>
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident,</p>
     <a class="btn btn-warning btn-lg" href="#" role="button">Selengkapnya</a>
 
   </div>
