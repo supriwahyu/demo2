@@ -1,3 +1,7 @@
+<div>
+      <img src="<?php echo base_url(); ?>asset/foto_banner/25.jpg">
+</div>
+
 			<div class="container">
                 <div class="row" style="padding-top:15px;"> 
                     <div class="col-md-9">

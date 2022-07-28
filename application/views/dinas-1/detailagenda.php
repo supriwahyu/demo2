@@ -5,6 +5,9 @@
     $isi_agenda=nl2br($rows['isi_agenda']);
     $baca = $rows['dibaca']+1;
 ?>  
+<div>
+      <img src="<?php echo base_url(); ?>asset/foto_banner/28.jpg">
+</div>
 
 <div class="container">
                 <div class="row" style="padding-top:15px;"> 
@@ -12,7 +15,7 @@
                         <div class="blog-post single-post">
                             <article class="post blog-single-post">
                                 <div>
-                                    <h2><?php echo $rows['tema']; ?></h2>
+                                    <h2 style="text-align: center;"><?php echo $rows['tema']; ?></h2>
 									<div class="post-meta">
                                         <span><i class="fa fa-calendar"> <?php echo tgl_indo($rows['tgl_posting']); ?></i></span>
                                             <span><i class="fa fa-eye"></i> <a href="#"><?php echo number_format($rows['dibaca']+1); ?></a></span>

@@ -1,3 +1,7 @@
+<div>
+      <img src="<?php echo base_url(); ?>asset/foto_banner/25.jpg">
+</div>
+
 <div class="vc_column  wpb_column vc_column_container td-pb-span8" style='margin-top:20px'>
 <div class="wpb_wrapper">
     <div class="td-category-header td-pb-padding-side">

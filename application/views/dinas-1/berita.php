@@ -1,6 +1,10 @@
+<div>
+      <img src="<?php echo base_url(); ?>asset/foto_banner/25.jpg">
+</div>
+
 <div class="container">
 				<br/>
-				<h2>Semua Berita</h2>
+				<h2 style="text-align: center;">Semua Berita</h2>
                 <div class="row" style="padding-top:15px;"> 
                     <div class="col-md-9">
                         <div class="blog-post single-post">

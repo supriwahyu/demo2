@@ -1,3 +1,5 @@
+<div id="wrapper">
+  <aside>
 <div class="vc_row td-top-border wpb_row td-pb-row" >
     <div class="vc_column wpb_column vc_column_container td-pb-span12">
         <div class="wpb_wrapper">
@@ -73,3 +75,6 @@
         </div>
     </div>
 </div> 
+
+</aside>
+</div>

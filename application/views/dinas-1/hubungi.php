@@ -1,5 +1,9 @@
 <?php $alamat = $this->model_utama->view_where('mod_alamat',array('id_alamat' => 1))->row_array(); ?>  
 
+<div>
+      <img src="<?php echo base_url(); ?>asset/foto_banner/37.jpg">
+</div>
+
 <div class="container">
 	<div class="row" style="padding-top:15px;"> 
 		<div class="col-md-9">

@@ -1,10 +1,14 @@
+<div>
+      <img src="<?php echo base_url(); ?>asset/foto_banner/25.jpg">
+</div>
+
 <div class="container">
                 <div class="row" style="padding-top:15px;"> 
                     <div class="col-md-9">
                         <div class="blog-post single-post">
                             <article class="post blog-single-post">
                                 <div>
-                                    <h2><?php echo $rows['judul']; ?></h2>
+                                    <h2 style="text-align: center;"><?php echo $rows['judul']; ?></h2>
 									<div class="post-meta">
                                         <span><i class="fa fa-calendar"> <?php echo tgl_indo($rows['tanggal']); ?></i></span>
                                         <span><i class="fa fa-tag"></i><?php echo "<a href='". base_url() ."kategori/detail/$rows[kategori_seo]'>$rows[nama_kategori]</a>"; ?></span>

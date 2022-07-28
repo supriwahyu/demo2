@@ -15,12 +15,16 @@
 <marquee style="background:#ffcc04;color:white;" height="25" scrollamount="3" scrolldelay="5" direction="left" onmouseover="this.stop()" onmouseout="this.start()"><a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_29_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 29 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 1 CORONA VIRUS DISEASE 2019 DI WILAYAH JAWA DAN BALI</a> - <a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_30_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 30 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 2, DAN LEVEL 1 SERTA MENGOPTIMALKAN POSKO PENANGANAN CORONA VIRUS DISEASE 2019 DI TINGKAT DESA DAN KELURAHAN UNTUK PENGENDALIAN PENYEBARAN CORONA VIRUS DISEASE 2019 DI WILAYAH SUMATERA, NUSA TENGGARA, KALIMANTAN, SULAWESI, MALUKU, DAN PAPUA</a></marquee>
 
 <section class="section section-no-background m-none">
-	<div class="container1">
+	<div class="container1 animated fadeInRight">
 		<div class="row">
 			
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 welcome padding-left-none padding-bottom-40 scroll_effect fadeInUp">
 				<h2 class="margin-bottom-25 margin-top-none" style="text-align: center;">BERITA TERBARU</h2>
 				<div class="btmline" style="margin-bottom: 46px;"></div>
+				<div style="display: flex; justify-content:center;">
+					<img style="width: auto; height:50px;" src="<?php echo base_url(); ?>asset/logo/38.png">
+				<p style="text-align:left; color: black; margin-left: 20px;">Informasi berita terbaru dari Ditjen Bina Adwil,<br> portal resmi dan akurat</p>
+				</div>
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 					<?php
@@ -97,13 +101,18 @@
 		<div class="col-md-6" data-wow-delay=".4s">
 			<h2 id="dashboard" class="mb-lg" style="text-align: center;">DASHBOARD</h2>
 			<div class="btmline" style="margin-bottom: 46px;"></div>
-			<div class="item active"><a href="https://ditjenbinaadwil.kemendagri.go.id/download/file/flyerkeu1.pdf" target ="_blank"><img class="card2" style="width:auto; max-height: 100%; display: flex; justify-content: center;" src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto/asset/foto_banner/flyerkeu.jpg" caption="false" title="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)" alt="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)"/>
+			<div style="display: flex; justify-content:center;">
+					<img style="width: auto; height:50px;" src="<?php echo base_url(); ?>asset/logo/39.png">
+				<p style="text-align:left; color: black; margin-left: 20px;">Akses cepat berbagai layanan yang telah<br> disediakan olet Ditjen Bina Adwil</p>
+				</div>
+			<div class="item active"><a href="https://ditjenbinaadwil.kemendagri.go.id/download/file/flyerkeu1.pdf" target ="_blank"><img class="card2" style="width:auto; max-height: 100%; display: flex; justify-content: center;" src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto/asset/foto_banner/flyerkeu.jpg" caption="false" title="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)" alt="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)"/></a>
 	</div>
 </section>
 
+<div class="btmline" style="margin-bottom: 46px; width: 200px;"></div>
 
 
-<div class="container">
+<div class="container animated fadeInLeft">
   <div class="row align-items-start">
   	<div class="col-lg-6 col-md-6 col-sm-12">
 <div class="news-slider">
@@ -172,7 +181,7 @@
 </div>
 
 <div style="padding-top:50px;" class="container-fluid">
-  <div class="row no-gutters">
+  <div class="row no-gutters animated fadeInRight">
     <div class="col-lg-6 col-md-6 col-sm-12">
       <div class="jumbotron jumbotron-fluid" style="background: #183464; background-size: cover; height: 500px;">
 
@@ -180,14 +189,9 @@
 
   <div class="container text-white">
 
-    <h1 class="display-4" style="font-size: 30px; font-weight: 300; padding-top: 50px;">INFORMASI PUBLIK</h1>
+    <h1 class="display-4" style="font-size: 30px; font-weight: 300; padding-top: 150px;">INFORMASI PUBLIK</h1>
     <hr class="my-4">
-    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident</p>
+    <p class="text-white">Undang-Undang Nomor 14 Tahun 2008, tentang Keterbukaan Informasi Publik adalah salah satu produk hukum Indonesia yang dikeluarkan pada tahun 2008 dan diundangkan pada tanggal 30 April 2008 dan mulai berlaku dua tahun setelah diundangkan</p>
     <a class="btn btn-warning btn-lg" style="color: #183464;" href="#" role="button">Selengkapnya</a>
 
   </div>
@@ -203,7 +207,7 @@
 <!-- /.jumbotron -->
     </div>
   </div>
-  <div class="row no-gutters">
+  <div class="row no-gutters animated fadeInRight">
     <div class="col-lg-6 col-md-6 col-sm-12">
       <div class="jumbotron jumbotron-fluid" style="background: url(<?php echo base_url(); ?>asset/img_background/wa2.jpeg); background-size: cover; height: 400px;">
 
@@ -233,7 +237,7 @@
     </div>
 </div>
 </div>
-
+<div class="animated fadeInLeft">
 <h2 style="text-align: center; font-size: 30px; font-weight: 300; padding-top: 50px;">LAYANAN</h2>
 <div class="btmline" style="margin-bottom: 46px;"></div>
 
@@ -246,14 +250,9 @@
 
   <div class="container">
 
-    <img class="img-fluid" src="<?php echo base_url(); ?>asset/logo/13.png" style="height: 100px; width: auto;">
+    <img class="img-fluid" src="<?php echo base_url(); ?>asset/logo/40.png" style="height: 100px; width: auto;">
     <hr class="my-4">
-    <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident,</p>
+    <p class="text-black">Segala bentuk jasa pelayanan, baik dalam bentuk barang publik maupun jasa publik yang pada prinsipnya menjadi tanggung jawab dan dilaksanakan oleh Instansi Pemerintah</p>
     <a class="btn btn-warning btn-lg" href="#" role="button">Selengkapnya</a>
 
   </div>
@@ -262,22 +261,41 @@
 <!-- /.jumbotron -->
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <img class="img-fluid" src="<?php echo base_url(); ?>asset/logo/12.png">
+    	<div class="row">
+		  <div class="col col-md-3 "><a href="https://kemendagri.lapor.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/5.png"></div></a>
+		  <div class="col col-md-3"><a href="https://cloud-adwil.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/6.png"></div></a>
+		  <div class="col col-md-3"><a href="https://satpolpp.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/7.png"></div></a>
+		  <div class="col col-md-3"><a href="https://pagarspmbencana.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/8.png"></div></a>
+		</div>
+		<div class="row">
+		  <div class="col col-md-3"><a href="https://emonev-adwil.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/9.png"></div></a>
+		  <div class="col col-md-3"><a href="https://simpel.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/10.png"></div></a>
+		  <div class="col col-md-3"><a href="https://trantibumlinmas.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/11.png"></div></a>
+		  <div class="col col-md-3"><a href="https://simlinmas.kemendagri.go.id/management/index"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/12a.png"></div></a>
+		</div>
+		<div class="row">
+		  <div class="col col-md-3"><a href="https://profilpulau.kemendagri.go.id/#"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/13a.png"></div></a>
+		  <div class="col col-md-3"><a href="https://sipgwpp.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/14.png"></div></a>
+		  <div class="col col-md-3"><a href="https://puu-adwil.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/14.png"></div></a>
+		  <div class="col col-md-3"></div>
+		</div>
     </div>
   </div>
+</div>
 </div>
 
 
 
-
-<div class="container">
+<div class="container animated fadeInRight">
 <div class="row">
 <div class="col-md-12 center">
 <!-- <div class="heading heading-border heading-middle-border heading-middle-border-center"> -->
 <h2 class="mb-lg">LAYANAN<strong> TERKAIT</strong></h2>
 <div class="btmline" style="margin-bottom: 46px;"></div>
 <!-- </div> -->
-<iframe src="sliderlogo/" width="100%" frameBorder="0"></iframe>
+
+<iframe src="<?php echo base_url();?>sliderlogo/" width="100%" frameBorder="0"></iframe>
+
 
 </div>
 </div>
@@ -285,7 +303,7 @@
 
 <div class="clearfix"></div>
 
-<section class="section section-no-background m-none">
+<section class="section section-no-background m-none animated fadeInLeft">
 	<div class="container">
 		<div class="row">
 			

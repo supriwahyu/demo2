@@ -1,6 +1,10 @@
+<div>
+      <img src="<?php echo base_url(); ?>asset/foto_banner/26.jpg">
+</div>
+
 <div class="container">
 	<br/>
-	<h2>Galeri</h2>
+	<h2 style="text-align: center;">Galeri</h2>
 	<div class="row">
 		<div class="masonry-loader masonry-loader-loaded">
 			<div class="resp-container" style="position: relative; overflow: hidden; padding-top: 56.25%;">

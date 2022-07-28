@@ -1,6 +1,10 @@
+<div>
+      <img src="<?php echo base_url(); ?>asset/foto_banner/27.jpg">
+</div>
+
 	<div class="container">
 	<br/>
-		<h2><?php echo "$rows[jdl_playlist]"; ?></h2>
+		<h2 style="text-align: center;"><?php echo "$rows[jdl_playlist]"; ?></h2>
 			<div class='row multi-columns-row post-columns'>
 					<?php 
 					foreach ($detailplaylist->result_array() as $r) {   

@@ -1,6 +1,10 @@
+<div>
+      <img src="<?php echo base_url(); ?>asset/foto_banner/27.jpg">
+</div>
+
 			<div class="container">
 			<br/>
-				<h2>Video</h2>
+				<h2 style="text-align: center;">Video</h2>
                     <div class="row">
                         <div class="masonry-loader masonry-loader-loaded">
                             <div class="masonry" data-plugin-masonry="" style="position: relative; height: 904.314px;">

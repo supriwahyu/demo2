@@ -26,7 +26,7 @@
 				$txts = array("Besar harapan saya Tahun Anggaran 2022, Ditjen Bina Adwil dapat mencapai target realisasi 99% dan tetap memperhatikan target IKPA Nasional", "
 Kerjasama Kelompok Kerja/Jawatan Kuasa Kerja Sosio Ekonomi Malaysia-Indonesia (KK/JKK SOSEK MALINDO) dan Sub Organisasi dibawahnya telah memperkuat kerjasama bilateral Indonesia-Malaysia dibidang sosial-ekonomi di Kawasan Perbatasan
 
-");
+", "Kabar gembira bagi seluruh pejabat fungsional Damkar dan Analis Kebakaran, khususnya yang diangkat melalui mekanisme penyesuaian/inpassing, karena Bapak Presiden telah menandatangani Peraturan Presiden tentang besaran tunjangan fungsionalnya");
 				
 				shuffle($txts);
 				foreach ($imgs as $img) {    

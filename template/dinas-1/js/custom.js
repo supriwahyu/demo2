@@ -94,11 +94,11 @@
                                    nav: false
                               },
                               680: {
-                                   items: 2,
+                                   items: 1,
                                    nav: false                                   
                               },
                               1000: {
-                                   items: 2,
+                                   items: 1,
                                    nav: true
                               },
                               1200: {
@@ -114,3 +114,15 @@
                })(jQuery);
           })();
 
+var asideTop = $('aside').offset().top - parseFloat($('aside').css('marginTop').replace(/auto/, 0));
+$(window).scroll(function () {
+    var asideY = $(this).scrollTop();
+    if (asideY >= asideTop) {
+        $('aside').css({
+            position: 'fixed',
+            top: '65px'
+        })
+    } else {
+        $('aside').removeAttr('style')
+    }
+});
