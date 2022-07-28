@@ -139,7 +139,7 @@
 
 .header1 {
   padding: 10px 16px;
-  background: #555;
+  background: #fff;
   color: #f1f1f1;
 }
 
@@ -597,3 +597,32 @@ aside {
  padding: 15px 0 15px 8px;
  width: 267px;
 }
+
+@media (max-width: 479px) {
+#header22 {
+  display: unset !important;
+  text-align: left !important;
+}
+
+@media (max-width: 479px) {
+#header22 {
+  display: unset !important;
+  text-align: left !important;
+}
+
+@media (max-width: 479px) {
+#clock1 {
+  text-align: left !important;
+}
+
+@media (max-width: 479px) {
+.image-logo {
+  height: auto !important;
+  width: 100% !important;
+}
+
+@media (max-width: 479px) {
+#mainNav {
+  display: grid;
+}
+

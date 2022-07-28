@@ -17,11 +17,11 @@
             </div>
         </div> -->
 <div class="header-container header-nav header-nav-center header-nav-bar header-nav-bar-primary">
-    <div class="img-fluid" style="display:flex; justify-content: space-between; width: 100%; height: auto;">
-        <div style="text-align: left; width: 50%;">
+    <div id="header22" class="img-fluid" style="display:flex; justify-content: space-between; width: 100%; height: auto;">
+        <div style="text-align: left; width: auto;">
             <img class="image-logo" style="width: 75%; height: auto;" src="<?php echo base_url(); ?>asset/logo/1.png">
         </div>
-        <div style="text-align: right;"> 
+        <div id="clock1" style="text-align: right;"> 
 
         <body>
     <!-- Menampilkan Hari, Bulan dan Tahun -->

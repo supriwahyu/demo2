@@ -191,7 +191,7 @@
 
     <h1 class="display-4" style="font-size: 30px; font-weight: 300; padding-top: 150px;">INFORMASI PUBLIK</h1>
     <hr class="my-4">
-    <p class="text-white">Undang-Undang Nomor 14 Tahun 2008, tentang Keterbukaan Informasi Publik adalah salah satu produk hukum Indonesia yang dikeluarkan pada tahun 2008 dan diundangkan pada tanggal 30 April 2008 dan mulai berlaku dua tahun setelah diundangkan</p>
+    <p class="text-white" style="font-size:16px;">Undang-Undang Nomor 14 Tahun 2008, tentang Keterbukaan Informasi Publik adalah salah satu produk hukum Indonesia yang dikeluarkan pada tahun 2008 dan diundangkan pada tanggal 30 April 2008 dan mulai berlaku dua tahun setelah diundangkan</p>
     <a class="btn btn-warning btn-lg" style="color: #183464;" href="#" role="button">Selengkapnya</a>
 
   </div>
@@ -252,7 +252,7 @@
 
     <img class="img-fluid" src="<?php echo base_url(); ?>asset/logo/40.png" style="height: 100px; width: auto;">
     <hr class="my-4">
-    <p class="text-black">Segala bentuk jasa pelayanan, baik dalam bentuk barang publik maupun jasa publik yang pada prinsipnya menjadi tanggung jawab dan dilaksanakan oleh Instansi Pemerintah</p>
+    <p class="text-black" style="font-size: 16px;">Segala bentuk jasa pelayanan, baik dalam bentuk barang publik maupun jasa publik yang pada prinsipnya menjadi tanggung jawab dan dilaksanakan oleh Instansi Pemerintah</p>
     <a class="btn btn-warning btn-lg" href="#" role="button">Selengkapnya</a>
 
   </div>
@@ -262,21 +262,21 @@
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
     	<div class="row">
-		  <div class="col col-md-3 "><a href="https://kemendagri.lapor.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/5.png"></div></a>
-		  <div class="col col-md-3"><a href="https://cloud-adwil.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/6.png"></div></a>
-		  <div class="col col-md-3"><a href="https://satpolpp.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/7.png"></div></a>
-		  <div class="col col-md-3"><a href="https://pagarspmbencana.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/8.png"></div></a>
+		  <div class="col col-md-3" ><a href="https://kemendagri.lapor.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/5.png" alt="Lapor Kemendagri" title="Lapor Kemendagri"></div></a>
+		  <div class="col col-md-3"><a href="https://cloud-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/6.png" alt=" Bank Data" title=" Bank Data"></div></a>
+		  <div class="col col-md-3"><a href="https://satpolpp.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/7.png" alt=" Aplikasi Satpol PP" title=" Aplikasi Satpol PP"></div></a>
+		  <div class="col col-md-3"><a href="https://pagarspmbencana.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/8.png" alt=" Aplikasi Pagar SPM Bencana" title=" Aplikasi Pagar SPM Bencana"></div></a>
 		</div>
 		<div class="row">
-		  <div class="col col-md-3"><a href="https://emonev-adwil.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/9.png"></div></a>
-		  <div class="col col-md-3"><a href="https://simpel.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/10.png"></div></a>
-		  <div class="col col-md-3"><a href="https://trantibumlinmas.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/11.png"></div></a>
-		  <div class="col col-md-3"><a href="https://simlinmas.kemendagri.go.id/management/index"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/12a.png"></div></a>
+		  <div class="col col-md-3"><a href="https://emonev-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/9.png" alt="Aplikasi E-Monev Adwil" title="Aplikasi E-Monev Adwil"></div></a>
+		  <div class="col col-md-3"><a href="https://simpel.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/10.png" alt=" Aplikasi Simpel " title=" Aplikasi Simpel "></div></a>
+		  <div class="col col-md-3"><a href="https://trantibumlinmas.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/11.png" alt=" Aplikasi Trantibumlinmas" title=" Aplikasi Trantibumlinmas"></div></a>
+		  <div class="col col-md-3"><a href="https://simlinmas.kemendagri.go.id/management/index"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/12a.png" alt=" Aplikasi Simlinmas" title=" Aplikasi Simlinmas"></div></a>
 		</div>
 		<div class="row">
-		  <div class="col col-md-3"><a href="https://profilpulau.kemendagri.go.id/#"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/13a.png"></div></a>
-		  <div class="col col-md-3"><a href="https://sipgwpp.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/14.png"></div></a>
-		  <div class="col col-md-3"><a href="https://puu-adwil.kemendagri.go.id/"><img style="height: 50px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/14.png"></div></a>
+		  <div class="col col-md-3"><a href="https://profilpulau.kemendagri.go.id/#"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/13a.png" alt="Aplikasi Profil Pulau" title="Aplikasi Profil Pulau"></div></a>
+		  <div class="col col-md-3"><a href="https://sipgwpp.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/14.png" alt=" SIP GWPP" title=" SIP GWPP"></div></a>
+		  <div class="col col-md-3"><a href="https://puu-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/14.png" alt="Aplikasi Perundang-Undangan" title="Aplikasi Perundang-Undangan"></div></a>
 		  <div class="col col-md-3"></div>
 		</div>
     </div>
