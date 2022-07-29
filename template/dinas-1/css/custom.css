@@ -138,7 +138,7 @@
 }
 
 .header1 {
-  padding: 10px 16px;
+  /*padding: 10px 16px;*/
   background: #fff;
   color: #f1f1f1;
 }
@@ -392,22 +392,22 @@ img {
     
 }
 
-@media (max-width: 479px) {
+@media (max-width: 700px) {
 #image-banner {
   height: 600px;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 700px) {
 .options {
   width: 250px;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 700px) {
 #slide-caption {
   padding-top: 150px !important;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 700px) {
 #dashboard {
   padding-top: 50px !important;
 }
@@ -598,31 +598,34 @@ aside {
  width: 267px;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 700px) {
 #header22 {
   display: unset !important;
   text-align: left !important;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 700px) {
 #header22 {
   display: unset !important;
   text-align: left !important;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 700px) {
 #clock1 {
   text-align: left !important;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 700px) {
 .image-logo {
   height: auto !important;
   width: 100% !important;
 }
 
-@media (max-width: 479px) {
+@media (max-width: 700px) {
 #mainNav {
-  display: grid;
+  display: grid !important;
 }
 
+#header .header-btn-collapse-nav {
+    background-color: #143464;
+}

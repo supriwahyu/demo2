@@ -2904,7 +2904,7 @@ html[dir="rtl"] #header .tip.skin:before {
 }
 
 #header .header-btn-collapse-nav {
-	background: #da251c;
+	background: #143464;
 }
 
 @media (min-width: 992px) {
@@ -3305,7 +3305,7 @@ html[dir="rtl"] #header .tip.skin:before {
 	#header .header-nav-main nav > ul > li > a,
   #header .header-nav-main nav > ul > li > a:focus,
   #header .header-nav-main nav > ul > li > a:hover {
-		color: #da251c;
+		color: #143464;
 	}
 
 	#header .header-nav-main nav > ul > li.active > a,

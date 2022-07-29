@@ -12,14 +12,14 @@
 	<?php include "slide.php"; ?>
 </div><!-- /.container -->
 
-<marquee style="background:#ffcc04;color:white;" height="25" scrollamount="3" scrolldelay="5" direction="left" onmouseover="this.stop()" onmouseout="this.start()"><a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_29_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 29 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 1 CORONA VIRUS DISEASE 2019 DI WILAYAH JAWA DAN BALI</a> - <a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_30_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 30 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 2, DAN LEVEL 1 SERTA MENGOPTIMALKAN POSKO PENANGANAN CORONA VIRUS DISEASE 2019 DI TINGKAT DESA DAN KELURAHAN UNTUK PENGENDALIAN PENYEBARAN CORONA VIRUS DISEASE 2019 DI WILAYAH SUMATERA, NUSA TENGGARA, KALIMANTAN, SULAWESI, MALUKU, DAN PAPUA</a></marquee>
+<marquee style="background:white;color:white;" height="25" scrollamount="3" scrolldelay="5" direction="left" onmouseover="this.stop()" onmouseout="this.start()"><a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_29_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 29 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 1 CORONA VIRUS DISEASE 2019 DI WILAYAH JAWA DAN BALI</a> - <a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_30_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 30 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 2, DAN LEVEL 1 SERTA MENGOPTIMALKAN POSKO PENANGANAN CORONA VIRUS DISEASE 2019 DI TINGKAT DESA DAN KELURAHAN UNTUK PENGENDALIAN PENYEBARAN CORONA VIRUS DISEASE 2019 DI WILAYAH SUMATERA, NUSA TENGGARA, KALIMANTAN, SULAWESI, MALUKU, DAN PAPUA</a></marquee>
 
 <section class="section section-no-background m-none">
-	<div class="container1 animated fadeInRight">
+	<div class="container1 animated fadeInRight" style="margin-bottom: 50px; background-image: linear-gradient(to right, #f5f5f5 , #a8a8a8);">
 		<div class="row">
 			
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 welcome padding-left-none padding-bottom-40 scroll_effect fadeInUp">
-				<h2 class="margin-bottom-25 margin-top-none" style="text-align: center;">BERITA TERBARU</h2>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 welcome padding-left-none padding-bottom-40 scroll_effect fadeInUp" >
+				<h2 class="margin-bottom-25 margin-top-none" style="text-align: center; padding-top: 25px;"><b>BERITA TERBARU</b></h2>
 				<div class="btmline" style="margin-bottom: 46px;"></div>
 				<div style="display: flex; justify-content:center;">
 					<img style="width: auto; height:50px;" src="<?php echo base_url(); ?>asset/logo/38.png">
@@ -98,8 +98,8 @@
 			?>
 		</div>-->
 		
-		<div class="col-md-6" data-wow-delay=".4s">
-			<h2 id="dashboard" class="mb-lg" style="text-align: center;">DASHBOARD</h2>
+		<div class="col-md-6" data-wow-delay=".4s" style="padding-bottom: 75px;">
+			<h2 id="dashboard" class="mb-lg" style="text-align: center; padding-top: 25px;"><b>DASHBOARD</b></h2>
 			<div class="btmline" style="margin-bottom: 46px;"></div>
 			<div style="display: flex; justify-content:center;">
 					<img style="width: auto; height:50px;" src="<?php echo base_url(); ?>asset/logo/39.png">
@@ -109,14 +109,13 @@
 	</div>
 </section>
 
-<div class="btmline" style="margin-bottom: 46px; width: 200px;"></div>
 
 
 <div class="container animated fadeInLeft">
   <div class="row align-items-start">
   	<div class="col-lg-6 col-md-6 col-sm-12">
 <div class="news-slider">
-          <h2 style="text-align: center; font-size: 30px; font-weight: 300;">BERITA <br>KEMENDAGRI</h2>
+          <h2 style="text-align: center; font-size: 30px; font-weight: 300;"><b>BERITA <br>KEMENDAGRI</b></h2>
           <div class="btmline" style="margin-bottom: 46px;"></div>
           <div class="owl-carousel owl-carousel1 owl-theme">
           	<?php
@@ -130,9 +129,9 @@
                          <div class="card-body">
                               <!-- <div class="heading">
                               </div> -->
-                               <p><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
+                               <p style="font-size: 14px;"><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
                                    <div class="card-footer">
-                                        <span><i class="fa fa-calendar"></i> <?php echo $h['tanggal'] . " " . $h['jam']; ?> </span>
+                                        <span style="font-size: 14px;"><i class="fa fa-calendar"></i> <?php echo $h['tanggal'] . " " . $h['jam']; ?> </span>
                                    </div>
                          </div>
                          
@@ -147,7 +146,7 @@
            </div>
 <div class="col-lg-6 col-md-6 col-sm-12">
 <div class="news-slider">
-          <h2 style="font-size: 30px; font-weight: 300;">BERITA DITJEN <br>BINA ADWIL</h2>
+          <h2 style="font-size: 30px; font-weight: 300;"><b>BERITA DITJEN <br>BINA ADWIL</b></h2>
           <div class="btmline" style="margin-bottom: 46px;"></div>
           <div class="owl-carousel owl-carousel1 owl-theme">
           	<?php
@@ -161,9 +160,9 @@
                          <div class="card-body">
                               <!-- <div class="heading">
                               </div> -->
-                               <p><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
+                               <p style="font-size: 14px;"><span><i class="fa fa-volume-up"></i></span> &nbsp;<a style="color:#777;" href="berita/detail/<?php echo $h['judul_seo']; ?>"><?php echo $h['judul']; ?></a></p>
                                    <div class="card-footer">
-                                        <span><i class="fa fa-calendar"></i> <?php echo $h['tanggal'] . " " . $h['jam']; ?> </span>
+                                        <span style="font-size: 14px;"><i class="fa fa-calendar"></i> <?php echo $h['tanggal'] . " " . $h['jam']; ?> </span>
                                    </div>
                          </div>
                          
@@ -200,7 +199,7 @@
 <!-- /.jumbotron -->
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="jumbotron jumbotron-fluid" style="background: url(<?php echo base_url(); ?>asset/img_background/wa1.jpeg); background-size: cover; height: 500px;">
+      <div class="jumbotron jumbotron-fluid" style="background: url(<?php echo base_url(); ?>asset/img_background/wa1.jpeg); background-size: cover; height: 500px; filter: brightness(50%);">
   </div>
   <!-- /.container -->
 </div>
@@ -209,7 +208,7 @@
   </div>
   <div class="row no-gutters animated fadeInRight">
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="jumbotron jumbotron-fluid" style="background: url(<?php echo base_url(); ?>asset/img_background/wa2.jpeg); background-size: cover; height: 400px;">
+      <div class="jumbotron jumbotron-fluid" style="background: url(<?php echo base_url(); ?>asset/img_background/wa2.jpeg); background-size: cover; height: 400px; filter: brightness(50%);">
 
   
   <!-- /.container -->
@@ -238,13 +237,13 @@
 </div>
 </div>
 <div class="animated fadeInLeft">
-<h2 style="text-align: center; font-size: 30px; font-weight: 300; padding-top: 50px;">LAYANAN</h2>
+<h2 style="text-align: center; font-size: 30px; font-weight: 300; padding-top: 50px;"><b>LAYANAN</b></h2>
 <div class="btmline" style="margin-bottom: 46px;"></div>
 
-<div class="container">
+<div class="container" id="container-layanan">
   <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="jumbotron jumbotron-fluid" style="background: white; background-size: cover; height: 500px;">
+      <div class="jumbotron jumbotron-fluid" style="background: white; background-size: cover; height: 350px;">
 
 
 
@@ -276,7 +275,7 @@
 		<div class="row">
 		  <div class="col col-md-3"><a href="https://profilpulau.kemendagri.go.id/#"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/13a.png" alt="Aplikasi Profil Pulau" title="Aplikasi Profil Pulau"></div></a>
 		  <div class="col col-md-3"><a href="https://sipgwpp.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/14.png" alt=" SIP GWPP" title=" SIP GWPP"></div></a>
-		  <div class="col col-md-3"><a href="https://puu-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/14.png" alt="Aplikasi Perundang-Undangan" title="Aplikasi Perundang-Undangan"></div></a>
+		  <div class="col col-md-3"><a href="https://puu-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/15a.png" alt="Aplikasi Perundang-Undangan" title="Aplikasi Perundang-Undangan"></div></a>
 		  <div class="col col-md-3"></div>
 		</div>
     </div>
@@ -290,7 +289,7 @@
 <div class="row">
 <div class="col-md-12 center">
 <!-- <div class="heading heading-border heading-middle-border heading-middle-border-center"> -->
-<h2 class="mb-lg">LAYANAN<strong> TERKAIT</strong></h2>
+<h2 class="mb-lg" style="text-align: center; font-size: 30px; font-weight: 300;"><b>LAYANAN TERKAIT</b></h2>
 <div class="btmline" style="margin-bottom: 46px;"></div>
 <!-- </div> -->
 
@@ -308,7 +307,7 @@
 		<div class="row">
 			
 		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 welcome padding-left-none padding-bottom-40 scroll_effect fadeInUp">
-			<h2 class="margin-bottom-25 margin-top-none">GALERI <strong>VIDEO</strong></h2>
+			<h2 class="margin-bottom-25 margin-top-none" style="text-align: center; font-size: 30px; font-weight: 300;"><b>GALERI VIDEO</b></h2>
 			<?php
 			foreach($video1->result_array() as $vid1){
 			?>
@@ -330,7 +329,7 @@
 		</div>
 		
 		<div class="col-md-4" data-wow-delay=".4s">
-			<h2 class="mb-lg"><strong>POLLING</strong></h2>
+			<h2 class="mb-lg" style="text-align: center; font-size: 30px; font-weight: 300;"><strong>POLLING</strong></h2>
 			<div class="recent-posts">
 				<article class="post">
 					<?php

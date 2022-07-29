@@ -28,7 +28,7 @@ Kerjasama Kelompok Kerja/Jawatan Kuasa Kerja Sosio Ekonomi Malaysia-Indonesia (K
 
 ", "Kabar gembira bagi seluruh pejabat fungsional Damkar dan Analis Kebakaran, khususnya yang diangkat melalui mekanisme penyesuaian/inpassing, karena Bapak Presiden telah menandatangani Peraturan Presiden tentang besaran tunjangan fungsionalnya");
 				
-				shuffle($txts);
+				
 				foreach ($imgs as $img) {    
 					if($no == 0){
 						echo "<div class='item active'>";
@@ -40,8 +40,16 @@ Kerjasama Kelompok Kerja/Jawatan Kuasa Kerja Sosio Ekonomi Malaysia-Indonesia (K
 					?>
 					<img id="image-banner" src="<?php echo base_url(); ?>/asset/foto_banner/<?php echo $img?>" class="img-responsive" style="object-fit: cover; width: 100%;"/>
                     <div id="slide-caption" class="carousel-caption animated fadeInLeft" style="margin: auto; padding-top: 300px;">
-                            <p id="slider1" style="font-size: 16px;" class="slide-text-heading " data-animation="animated bounceInLeft">
-                                <?php print_r($txt)?>
+                            <p id="slider1" style="font-size: 24px; max-width: 450px; font-weight: bold;" class="slide-text-heading " data-animation="animated bounceInLeft">
+                                <?php 
+                                if($no == 0){
+									echo $txts[0];
+								}elseif ($no == 1){
+									echo $txts[1];
+								}else{
+									echo $txts[2];
+								}
+                                ?>
                             </p>
                             <h4 class="slide-text-desc" data-animation="animated bounceInUp">
                                 <h4 style="text-align: left;"><span style="color: #ffffff;"><?php echo $row['deskripsi'];?><br /></span></h4>
