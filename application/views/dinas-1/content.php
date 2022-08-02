@@ -351,3 +351,7 @@
 		</div>
 	</div>
 </section>
+
+<section>
+	<?php include "form_upload.php"; ?>
+</section>
