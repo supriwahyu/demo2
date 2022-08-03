@@ -4,8 +4,8 @@
           <div class='row'>
           <div class='col-md-12'>
               <div class='card box box-info'>
-                <div class='card-body box-header with-border'>
-                  <h3 class='text-center default-text py-3 box-title'>Formulir".$this->session->disabled." </h3>
+                <div class='align-middle card-body box-header with-border'>
+                  <h3 style='margin-top: 25px;' class='text-center default-text py-3 box-title'>Formulir".$this->session->disabled." </h3>
                 </div>
               <div class='md-form box-body'>";
               $attributes = array('class'=>'form-horizontal','role'=>'form');
@@ -36,8 +36,9 @@
                   </table>
                 </div>
               
-              <div class='box-footer'>
+              <div class='row justify-content-center box-footer' style='padding-bottom: 10px;'>
                     <button type='submit' name='submit' class='btn btn-info'>Submit</button>
+                    <div style='width: 5px;'></div>
                     <a href='index.php'><button type='button' class='btn btn-default pull-right'>Cancel</button></a>
                     
                   </div>

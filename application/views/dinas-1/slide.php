@@ -21,7 +21,7 @@
                 <?php
 				$no = 0;
 				$utama1 = $this->model_utama->view('banner');
-				$imgs = array("2.jpg", "3.jpg", "4.jpg");
+				$imgs = array("2.jpg", "4.jpg", "3.jpg");
 				shuffle($imgs);
 				$txts = array("Besar harapan saya Tahun Anggaran 2022, Ditjen Bina Adwil dapat mencapai target realisasi 99% dan tetap memperhatikan target IKPA Nasional", "
 Kerjasama Kelompok Kerja/Jawatan Kuasa Kerja Sosio Ekonomi Malaysia-Indonesia (KK/JKK SOSEK MALINDO) dan Sub Organisasi dibawahnya telah memperkuat kerjasama bilateral Indonesia-Malaysia dibidang sosial-ekonomi di Kawasan Perbatasan

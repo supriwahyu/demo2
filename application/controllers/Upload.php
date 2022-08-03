@@ -97,7 +97,7 @@ class Upload extends CI_Controller {
 	public function proses(){
 		if (isset($_POST['submit'])){
 			$config['upload_path'] = 'asset/berkas';
-	        $config['allowed_types'] = 'gif|jpg|png|JPG|JPEG';
+	        $config['allowed_types'] = 'doc|docx|pdf';
 	        $config['max_size'] = '10000'; // kb
 	        $this->load->library('upload', $config);
 	        // $this->upload->do_upload('k');

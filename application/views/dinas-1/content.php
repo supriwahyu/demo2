@@ -12,11 +12,11 @@
 	<?php include "slide.php"; ?>
 </div><!-- /.container -->
 
-<marquee style="background:white;color:white;" height="25" scrollamount="3" scrolldelay="5" direction="left" onmouseover="this.stop()" onmouseout="this.start()"><a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_29_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 29 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 1 CORONA VIRUS DISEASE 2019 DI WILAYAH JAWA DAN BALI</a> - <a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_30_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 30 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 2, DAN LEVEL 1 SERTA MENGOPTIMALKAN POSKO PENANGANAN CORONA VIRUS DISEASE 2019 DI TINGKAT DESA DAN KELURAHAN UNTUK PENGENDALIAN PENYEBARAN CORONA VIRUS DISEASE 2019 DI WILAYAH SUMATERA, NUSA TENGGARA, KALIMANTAN, SULAWESI, MALUKU, DAN PAPUA</a></marquee>
+<marquee style="background:yellow;color:white;" height="25" scrollamount="3" scrolldelay="5" direction="left" onmouseover="this.stop()" onmouseout="this.start()"><a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_29_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 29 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 1 CORONA VIRUS DISEASE 2019 DI WILAYAH JAWA DAN BALI</a> - <a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_30_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 30 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 2, DAN LEVEL 1 SERTA MENGOPTIMALKAN POSKO PENANGANAN CORONA VIRUS DISEASE 2019 DI TINGKAT DESA DAN KELURAHAN UNTUK PENGENDALIAN PENYEBARAN CORONA VIRUS DISEASE 2019 DI WILAYAH SUMATERA, NUSA TENGGARA, KALIMANTAN, SULAWESI, MALUKU, DAN PAPUA</a></marquee>
 
-<div style="padding-bottom: 50px;">
+<section style="padding-bottom: 50px;">
 	<?php include "form_upload.php"; ?>
-</div>
+</section>
 
 <section class="section section-no-background m-none">
 	<div class="container1 animated fadeInRight" style="margin-bottom: 50px; background-image: linear-gradient(to right, #f5f5f5 , #a8a8a8);">
@@ -265,21 +265,21 @@
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
     	<div class="row">
-		  <div class="col col-md-3" ><a href="https://kemendagri.lapor.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/5.png" alt="Lapor Kemendagri" title="Lapor Kemendagri"></div></a>
-		  <div class="col col-md-3"><a href="https://cloud-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/6.png" alt=" Bank Data" title=" Bank Data"></div></a>
+		  <div class="col col-md-3" ><a href="https://kemendagri.lapor.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/11.png" alt="Lapor Kemendagri" title="Lapor Kemendagri"></div></a>
+		  <div class="col col-md-3"><a href="https://cloud-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/22.png" alt=" Bank Data" title=" Bank Data"></div></a>
 		  <div class="col col-md-3"><a href="https://satpolpp.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/7.png" alt=" Aplikasi Satpol PP" title=" Aplikasi Satpol PP"></div></a>
-		  <div class="col col-md-3"><a href="https://pagarspmbencana.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/8.png" alt=" Aplikasi Pagar SPM Bencana" title=" Aplikasi Pagar SPM Bencana"></div></a>
+		  <div class="col col-md-3"><a href="https://pagarspmbencana.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/44.png" alt=" Aplikasi Pagar SPM Bencana" title=" Aplikasi Pagar SPM Bencana"></div></a>
 		</div>
 		<div class="row">
-		  <div class="col col-md-3"><a href="https://emonev-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/9.png" alt="Aplikasi E-Monev Adwil" title="Aplikasi E-Monev Adwil"></div></a>
-		  <div class="col col-md-3"><a href="https://simpel.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/10.png" alt=" Aplikasi Simpel " title=" Aplikasi Simpel "></div></a>
-		  <div class="col col-md-3"><a href="https://trantibumlinmas.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/11.png" alt=" Aplikasi Trantibumlinmas" title=" Aplikasi Trantibumlinmas"></div></a>
-		  <div class="col col-md-3"><a href="https://simlinmas.kemendagri.go.id/management/index"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/12a.png" alt=" Aplikasi Simlinmas" title=" Aplikasi Simlinmas"></div></a>
+		  <div class="col col-md-3"><a href="https://emonev-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/55.png" alt="Aplikasi E-Monev Adwil" title="Aplikasi E-Monev Adwil"></div></a>
+		  <div class="col col-md-3"><a href="https://simpel.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/66.png" alt=" Aplikasi Simpel " title=" Aplikasi Simpel "></div></a>
+		  <div class="col col-md-3"><a href="https://trantibumlinmas.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/77.png" alt=" Aplikasi Trantibumlinmas" title=" Aplikasi Trantibumlinmas"></div></a>
+		  <div class="col col-md-3"><a href="https://simlinmas.kemendagri.go.id/management/index"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/88.png" alt=" Aplikasi Simlinmas" title=" Aplikasi Simlinmas"></div></a>
 		</div>
 		<div class="row">
-		  <div class="col col-md-3"><a href="https://profilpulau.kemendagri.go.id/#"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/13a.png" alt="Aplikasi Profil Pulau" title="Aplikasi Profil Pulau"></div></a>
-		  <div class="col col-md-3"><a href="https://sipgwpp.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/14.png" alt=" SIP GWPP" title=" SIP GWPP"></div></a>
-		  <div class="col col-md-3"><a href="https://puu-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/15a.png" alt="Aplikasi Perundang-Undangan" title="Aplikasi Perundang-Undangan"></div></a>
+		  <div class="col col-md-3"><a href="https://profilpulau.kemendagri.go.id/#"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/99.png" alt="Aplikasi Profil Pulau" title="Aplikasi Profil Pulau"></div></a>
+		  <div class="col col-md-3"><a href="https://sipgwpp.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/1010.png" alt=" SIP GWPP" title=" SIP GWPP"></div></a>
+		  <div class="col col-md-3"><a href="https://puu-adwil.kemendagri.go.id/"><img style="height: 70px; width: auto; margin: 15px;" src="<?php echo base_url(); ?>asset/logo/77.png" alt="Aplikasi Perundang-Undangan" title="Aplikasi Perundang-Undangan"></div></a>
 		  <div class="col col-md-3"></div>
 		</div>
     </div>
