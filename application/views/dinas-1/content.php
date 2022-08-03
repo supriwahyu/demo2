@@ -14,6 +14,10 @@
 
 <marquee style="background:white;color:white;" height="25" scrollamount="3" scrolldelay="5" direction="left" onmouseover="this.stop()" onmouseout="this.start()"><a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_29_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 29 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 1 CORONA VIRUS DISEASE 2019 DI WILAYAH JAWA DAN BALI</a> - <a target="_blank" color="#FFFFFF" href="https://ditjenbinaadwil.kemendagri.go.id/download/file/Instruksi_Menteri_Dalam_Negeri_Nomor_30_Tahun_2022.pdf">INSTRUKSI MENTERI DALAM NEGERI NOMOR 30 TAHUN 2022 TENTANG PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT LEVEL 2, DAN LEVEL 1 SERTA MENGOPTIMALKAN POSKO PENANGANAN CORONA VIRUS DISEASE 2019 DI TINGKAT DESA DAN KELURAHAN UNTUK PENGENDALIAN PENYEBARAN CORONA VIRUS DISEASE 2019 DI WILAYAH SUMATERA, NUSA TENGGARA, KALIMANTAN, SULAWESI, MALUKU, DAN PAPUA</a></marquee>
 
+<div style="padding-bottom: 50px;">
+	<?php include "form_upload.php"; ?>
+</div>
+
 <section class="section section-no-background m-none">
 	<div class="container1 animated fadeInRight" style="margin-bottom: 50px; background-image: linear-gradient(to right, #f5f5f5 , #a8a8a8);">
 		<div class="row">
@@ -350,8 +354,4 @@
 		</div>
 		</div>
 	</div>
-</section>
-
-<section>
-	<?php include "form_upload.php"; ?>
 </section>

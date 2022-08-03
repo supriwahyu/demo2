@@ -217,7 +217,7 @@
             </li>
             
             <li><a href="<?php echo base_url(); ?>administrator/edit_manajemenuser/<?php echo $this->session->username; ?>"><i class="fa fa-edit"></i> <span>Edit Profile</span></a></li>
-            <li><a href="<?php echo base_url(); ?>upload/listform"><i class="fa fa-id-card" aria-hidden="true"></i> <span>Form</span></a></li>
+            <li><a href="<?php echo base_url(); ?>upload/listform"><i class="glyphicon glyphicon-envelope"></i> <span>Form</span></a></li>
             <li><a href="<?php echo base_url(); ?>administrator/logout"><i class="fa fa-power-off"></i> <span>Logout</span></a></li>
           </ul>
         </section>
