@@ -99,7 +99,11 @@
 								<a href="<?php echo base_url();?>hubungi/">
 									Hubungi Kami
 								</a>
-
+                        <li>
+                                <a href="<?php echo base_url();?>upload/index/">
+                                    Pendaftaran
+                                </a>
+                        </li>
 							
 						</li>
 						<li class="hidden-xs hidden-sm" style="float:right;padding:10px 13px;">

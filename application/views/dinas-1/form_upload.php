@@ -1,11 +1,13 @@
-
+<div>
+      <img src="<?php echo base_url(); ?>asset/foto_banner/53.jpg">
+</div>
         <?php 
-    echo "<div class='container'>
+    echo "<div class='container' style='padding-top: 50px;'>
           <div class='row'>
           <div class='col-md-12'>
               <div class='card box box-info'>
                 <div class='align-middle card-body box-header with-border'>
-                  <h3 style='margin-top: 25px;' class='text-center default-text py-3 box-title'>Formulir".$this->session->disabled." </h3>
+                  <h3 style='margin-top: 25px;' class='text-center default-text py-3 box-title'><b>Pendaftaran <br>Genggam Bencana Award</b>".$this->session->disabled." </h3>
                 </div>
               <div class='md-form box-body'>";
               $attributes = array('class'=>'form-horizontal','role'=>'form');
