@@ -5,6 +5,7 @@
 <div class="container">
 				<br/>
 				<h2 style="text-align: center;">Semua Berita</h2>
+				<div class="btmline" style="margin-bottom: 46px;"></div>
                 <div class="row" style="padding-top:15px;"> 
                     <div class="col-md-9">
                         <div class="blog-post single-post">

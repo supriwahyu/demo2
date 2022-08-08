@@ -20,10 +20,10 @@
 				</article>
 			</div>
 		</div>
-			
-		<div class="wpb_wrapper">
+		<div class="col-md-3">
+		<div class="wpb_wrapper shadow-lg p-3 mb-5 bg-white rounded">
 			<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<?php echo "$iden[maps]"; ?>"></iframe>
-
+		</div>
 			<div class="vc_row_inner vc_custom_1464855984483  vc_row vc_inner wpb_row td-pb-row">
 				<div class="vc_column_inner  wpb_column vc_column_container td-pb-span12">
 					<div class="vc_column-inner">

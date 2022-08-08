@@ -5,7 +5,8 @@
 			<div class="container">
 			<br/>
 				<h2 style="text-align: center;">Album</h2>
-                    <div class="row">
+				<div class="btmline" style="margin-bottom: 46px;"></div>
+                    <div>
                         <div class="masonry-loader masonry-loader-loaded">
                             <div class="masonry" data-plugin-masonry="" style="position: relative; height: 904.314px;">
 							

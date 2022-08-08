@@ -4,7 +4,8 @@
 
 	<div class="container">
 	<br/>
-		<h2 style="text-align: center;"><?php echo "$rows[jdl_playlist]"; ?></h2>
+		<h2 style="text-align: center;"><b><?php echo "$rows[jdl_playlist]"; ?></b></h2>
+		<div class="btmline" style="margin-bottom: 46px;"></div>
 			<div class='row multi-columns-row post-columns'>
 					<?php 
 					foreach ($detailplaylist->result_array() as $r) {   

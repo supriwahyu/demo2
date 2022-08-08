@@ -8,7 +8,8 @@
                         <div class="blog-post single-post">
                             <article class="post blog-single-post">
                                 <div>
-                                    <h2 style="text-align: center;"><?php echo $rows['judul']; ?></h2>
+                                    <h2 style="text-align: center;"><b><?php echo $rows['judul']; ?></b></h2>
+                                    <div class="btmline" style="margin-bottom: 46px;"></div>
 									<div class="post-meta">
                                         <span><i class="fa fa-calendar"> <?php echo tgl_indo($rows['tanggal']); ?></i></span>
                                         <span><i class="fa fa-tag"></i><?php echo "<a href='". base_url() ."kategori/detail/$rows[kategori_seo]'>$rows[nama_kategori]</a>"; ?></span>

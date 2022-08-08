@@ -317,8 +317,8 @@ blockquote.with-borders {
 /* Paragraphs */
 p {
 	color: #777;
-	line-height: 24px;
-	margin: 0 0 20px;
+	line-height: 18px;
+	/*margin: 0 0 20px;*/
 }
 
 p.featured {

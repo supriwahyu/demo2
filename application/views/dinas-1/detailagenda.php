@@ -15,7 +15,8 @@
                         <div class="blog-post single-post">
                             <article class="post blog-single-post">
                                 <div>
-                                    <h2 style="text-align: center;"><?php echo $rows['tema']; ?></h2>
+                                    <h2 style="text-align: center;"><b><?php echo $rows['tema']; ?></b></h2>
+                                    <div class="btmline" style="margin-bottom: 46px;"></div>
 									<div class="post-meta">
                                         <span><i class="fa fa-calendar"> <?php echo tgl_indo($rows['tgl_posting']); ?></i></span>
                                             <span><i class="fa fa-eye"></i> <a href="#"><?php echo number_format($rows['dibaca']+1); ?></a></span>
