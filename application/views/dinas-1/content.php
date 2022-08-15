@@ -24,7 +24,7 @@
 				<div class="btmline" style="margin-bottom: 46px;"></div>
 				<div style="display: flex; justify-content:center;">
 					<img style="width: auto; height:50px;" src="<?php echo base_url(); ?>asset/logo/38.png">
-				<p style="text-align:left; color: black; margin-left: 20px;">Informasi berita terbaru dari Ditjen Bina Adwil,<br> portal resmi dan akurat</p>
+				<p style="text-align:left; color: black; margin-left: 20px; margin-bottom: 50px;">Informasi berita terbaru dari Ditjen Bina Adwil,<br> portal resmi dan akurat</p>
 				</div>
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
@@ -104,7 +104,7 @@
 			<div class="btmline" style="margin-bottom: 46px;"></div>
 			<div style="display: flex; justify-content:center;">
 					<img style="width: auto; height:50px;" src="<?php echo base_url(); ?>asset/logo/39.png">
-				<p style="text-align:left; color: black; margin-left: 20px;">Akses cepat berbagai layanan yang telah<br> disediakan olet Ditjen Bina Adwil</p>
+				<p style="text-align:left; color: black; margin-left: 20px; margin-bottom: 50px;">Akses cepat berbagai layanan yang telah<br> disediakan olet Ditjen Bina Adwil</p>
 				</div>
 			<div class="item active"><a href="https://ditjenbinaadwil.kemendagri.go.id/download/file/flyerkeu1.pdf" target ="_blank"><img class="card2" style="width:auto; max-height: 100%; display: flex; justify-content: center;" src="https://cdn.statically.io/img/ditjenbinaadwil.kemendagri.go.id/f=auto/asset/foto_banner/flyerkeu.jpg" caption="false" title="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)" alt="Alun Penyelesaian Tindak Lanjut Hasil Pemeriksaan (TLHP)"/></a>
 	</div>

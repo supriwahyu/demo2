@@ -6,11 +6,11 @@
 
 <div class="container">
 	<div class="row" style="padding-top:15px;"> 
-		<div class="col-md-9">
+		<div class="col-md-6">
 			<div class="blog-post single-post">
 				<article class="post blog-single-post">
 					<div>
-					<header><h2>Contact</h2></header>
+					<header><h2 style="text-align: center;"><b>Contact</b></h2></header>
 					</div>
 					<div class="wpb_wrapper wpb_text_column td_block_wrap td_block_wrap vc_column_text  td_block_template_1">
 					<div class="td-block-title-wrap"></div>
@@ -20,7 +20,7 @@
 				</article>
 			</div>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-6">
 		<div class="wpb_wrapper shadow-lg p-3 mb-5 bg-white rounded">
 			<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<?php echo "$iden[maps]"; ?>"></iframe>
 		</div>

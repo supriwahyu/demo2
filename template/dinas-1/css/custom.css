@@ -629,3 +629,9 @@ aside {
 #header .header-btn-collapse-nav {
     background-color: #143464;
 }
+
+@media (max-width: 700px) {
+.slide-text-heading {
+  width: 250px;
+  font-size: 16px !important;
+}

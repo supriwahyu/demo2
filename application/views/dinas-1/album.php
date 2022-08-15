@@ -4,9 +4,9 @@
 
 			<div class="container">
 			<br/>
-				<h2 style="text-align: center;">Album</h2>
+				<h2 style="text-align: center;"><b>Album</b></h2>
 				<div class="btmline" style="margin-bottom: 46px;"></div>
-                    <div>
+                    <div >
                         <div class="masonry-loader masonry-loader-loaded">
                             <div class="masonry" data-plugin-masonry="" style="position: relative; height: 904.314px;">
 							
@@ -18,7 +18,7 @@
 							$isi_keterangan = substr($keterangan,0,120); 
 							$isi_keterangan = substr($keterangan,0,strrpos($isi_keterangan," "));
 							echo "
-							<div class='masonry-item' style='margin: 10px; width: 30%; position: absolute; left: 0px; top: 0px;'>
+							<div class='card' style='margin: 10px; width: 30%; position: absolute; left: 0px; top: 0px;'>
 								<a style='text-decoration:none;color:#000000;' href='".base_url()."albums/detail/$h[album_seo]' >
 									<span class='thumb-info thumb-info-hide-wrapper-bg'>
 										<span class='thumb-info-wrapper'>";
